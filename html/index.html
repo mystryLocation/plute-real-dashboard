@@ -1,497 +1,199 @@
 <!DOCTYPE html>
-<html dir="ltr" lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!-- Tell the browser to be responsive to screen width -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="keywords"
-        content="wrappixel, admin dashboard, html css dashboard, web dashboard, bootstrap 5 admin, bootstrap 5, css3 dashboard, bootstrap 5 dashboard, Monsterlite admin bootstrap 5 dashboard, frontend, responsive bootstrap 5 admin template, Monster admin lite design, Monster admin lite dashboard bootstrap 5 dashboard template">
-    <meta name="description"
-        content="Monster Lite is powerful and clean admin dashboard template, inpired from Bootstrap Framework">
-    <meta name="robots" content="noindex,nofollow">
-    <title>Plutecoder Technology</title>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- Tell the browser to be responsive to screen width -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="keywords" content="wrappixel, admin dashboard, html css dashboard, web dashboard, bootstrap 5 admin, bootstrap 5, css3 dashboard, bootstrap 5 dashboard, monster lite admin bootstrap 5 dashboard, frontend, responsive bootstrap 5 admin template, monster lite design, monster lite dashboard bootstrap 5 dashboard template">
+        <meta name="description" content="Monster Lite is powerful and clean admin dashboard template, inpired from Bootstrap Framework">
+        <meta name="robots" content="noindex,nofollow">
+            <title>Monster Lite Template by WrapPixel</title>
     <link rel="canonical" href="https://www.wrappixel.com/templates/monster-admin-lite/" />
-    <!-- Favicon icon -->
-    <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon.png">
-    <!-- Custom CSS -->
-    <link href="../assets/plugins/chartist/dist/chartist.min.css" rel="stylesheet">
-    <!-- Custom CSS -->
-    <link href="/monster-html/css/style.min.css" rel="stylesheet">
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-<![endif]-->
-</head>
-
-<body>
-    <!-- ============================================================== -->
-    <!-- Preloader - style you can find in spinners.css -->
-    <!-- ============================================================== -->
-    <div class="preloader">
-        <div class="lds-ripple">
-            <div class="lds-pos"></div>
-            <div class="lds-pos"></div>
-        </div>
-    </div>
-    <!-- ============================================================== -->
-    <!-- Main wrapper - style you can find in pages.scss -->
-    <!-- ============================================================== -->
-    <div id="main-wrapper" data-layout="vertical" data-navbarbg="skin6" data-sidebartype="full"
-        data-sidebar-position="absolute" data-header-position="absolute" data-boxed-layout="full">
+        <!-- Favicon icon -->
+        <link rel="icon" type="image/png" sizes="16x16" href="https://www.wrappixel.com/demos/free-admin-templates/all-lite-landing-pages/assets/images/logos/monster-favicon.png">
+        <!-- Custom CSS -->
+        <link href="https://www.wrappixel.com/demos/free-admin-templates/all-lite-landing-pages/dist/css/style.css" rel="stylesheet">
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
         <!-- ============================================================== -->
-        <!-- Topbar header - style you can find in pages.scss -->
+        <!-- Main wrapper -->
         <!-- ============================================================== -->
-        <header class="topbar" data-navbarbg="skin6">
-            <nav class="navbar top-navbar navbar-expand-md navbar-dark">
-                <div class="navbar-header" data-logobg="skin6">
-                    <!-- ============================================================== -->
-                    <!-- Logo -->
-                    <!-- ============================================================== -->
-                    <a class="navbar-brand" href="index.html">
-                        <!-- Logo icon -->
-                        <b class="logo-icon">
-                            <!--You can put here icon as well // <i class="wi wi-sunset"></i> //-->
-                            <!-- Dark Logo icon -->
-                            <img src="../assets/images/logo-icon.png" alt="homepage" class="dark-logo" />
-
-                        </b>
-                        <!--End Logo icon -->
-                        <!-- Logo text -->
-                        <span class="logo-text">
-                            <!-- dark Logo text -->
-                            <img src="../assets/images/logo-text.png" alt="homepage" class="dark-logo" />
-
-                        </span>
-                    </a>
-                    <!-- ============================================================== -->
-                    <!-- End Logo -->
-                    <!-- ============================================================== -->
-                    <!-- ============================================================== -->
-                    <!-- toggle and nav items -->
-                    <!-- ============================================================== -->
-                    <a class="nav-toggler waves-effect waves-light text-dark d-block d-md-none"
-                        href="javascript:void(0)"><i class="ti-menu ti-close"></i></a>
-                </div>
-                <!-- ============================================================== -->
-                <!-- End Logo -->
-                <!-- ============================================================== -->
-                <div class="navbar-collapse collapse" id="navbarSupportedContent" data-navbarbg="skin5">
-                    
-                    <!-- ============================================================== -->
-                    <!-- toggle and nav items -->
-                    <!-- ============================================================== -->
-                    <ul class="navbar-nav me-auto mt-md-0 ">
-                        <!-- ============================================================== -->
-                        <!-- Search -->
-                        <!-- ============================================================== -->
-
-                        <li class="nav-item hidden-sm-down">
-                            <form class="app-search ps-3">
-                                <input type="text" class="form-control" placeholder="Search for..."> <a
-                                    class="srh-btn"><i class="ti-search"></i></a>
-                            </form>
-                        </li>
-                    </ul>
-
-                    <!-- ============================================================== -->
-                    <!-- Right side toggle and nav items -->
-                    <!-- ============================================================== -->
-                    <ul class="navbar-nav">
-                        <!-- ============================================================== -->
-                        <!-- User profile and search -->
-                        <!-- ============================================================== -->
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle waves-effect waves-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                <img src="../assets/images/users/1.jpg" alt="user" class="profile-pic me-2">Shailesh
+        <div id="main-wrapper">
+            <!-- ============================================================== -->
+            <!-- Header part -->
+            <!-- ============================================================== -->
+            <header class="py-3 bg-white">
+                <div class="container">
+                    <!-- Start Header -->
+                    <div class="header">
+                        <nav class="navbar navbar-expand-md navbar-light px-0">
+                            <a class="navbar-brand" href="#">
+                                <img src="https://www.wrappixel.com/demos/free-admin-templates/all-lite-landing-pages/assets/images/logos/monster-logo-lp-icon.png" alt="logo">
+                                <span>
+                                    <img src="https://www.wrappixel.com/demos/free-admin-templates/all-lite-landing-pages/assets/images/logos/monster-logo-ip-text.png" alt="logo">
+                                </span>
                             </a>
-                            <ul class="dropdown-menu show" aria-labelledby="navbarDropdown"></ul>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </header>
-        <!-- ============================================================== -->
-        <!-- End Topbar header -->
-        <!-- ============================================================== -->
-        <!-- ============================================================== -->
-        <!-- Left Sidebar - style you can find in sidebar.scss  -->
-        <!-- ============================================================== -->
-        <aside class="left-sidebar" data-sidebarbg="skin6">
-            <!-- Sidebar scroll-->
-            <div class="scroll-sidebar">
-                <!-- Sidebar navigation-->
-                <nav class="sidebar-nav">
-                    <ul id="sidebarnav">
-                        <!-- User Profile-->
-                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link"
-                                href="index.html" aria-expanded="false"><i class="me-3 far fa-clock fa-fw"
-                                    aria-hidden="true"></i><span class="hide-menu">Language</span></a></li>
-                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link"
-                                href="technology.html" aria-expanded="false">
-                                <i class="me-3 fa fa-user" aria-hidden="true"></i><span
-                                    class="hide-menu">Technologies</span></a>
-                        </li>
-                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link"
-                                href="table-basic.html" aria-expanded="false"><i class="me-3 fa fa-table"
-                                    aria-hidden="true"></i><span class="hide-menu">Database</span></a></li>
-                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link"
-                                href="icon-fontawesome.html" aria-expanded="false"><i class="me-3 fa fa-font"
-                                    aria-hidden="true"></i><span class="hide-menu">IT Generic</span></a></li>
-                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link"
-                                href="map-google.html" aria-expanded="false"><i class="me-3 fa fa-globe"
-                                    aria-hidden="true"></i><span class="hide-menu">Post</span></a></li>
-                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link"
-                                href="blank.html" aria-expanded="false"><i class="me-3 fa fa-columns"
-                                    aria-hidden="true"></i><span class="hide-menu">Other</span></a></li>
-                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link"
-                                href="404.html" aria-expanded="false"><i class="me-3 fa fa-info-circle"
-                                    aria-hidden="true"></i><span class="hide-menu">About</span></a></li>
-                        <li class="text-center p-20 upgrade-btn">
-                            <a href="https://www.wrappixel.com/templates/monsteradmin/"
-                                class="btn btn-danger text-white mt-4" target="_blank">Logout</a>
-                        </li>
-                    </ul>
-
-                </nav>
-                <!-- End Sidebar navigation -->
-            </div>
-            <!-- End Sidebar scroll-->
-        </aside>
-        <!-- ============================================================== -->
-        <!-- End Left Sidebar - style you can find in sidebar.scss  -->
-        <!-- ============================================================== -->
-        <!-- ============================================================== -->
-        <!-- Page wrapper  -->
-        <!-- ============================================================== -->
-        <div class="page-wrapper">
-            <!-- ============================================================== -->
-            <!-- Bread crumb and right sidebar toggle -->
-            <!-- ============================================================== -->
-            <div class="page-breadcrumb">
-                <div class="row align-items-center">
-                    <div class="col-md-6 col-8 align-self-center">
-                        <h3 class="page-title mb-0 p-0">Language</h3>
-                        <div class="d-flex align-items-center">
-                            <nav aria-label="breadcrumb">
-                                <ol class="breadcrumb">
-                                    <li class="breadcrumb-item"><a href="#">Home</a></li>
-                                    <li class="breadcrumb-item active" aria-current="page">Language</li>
-                                </ol>
-                            </nav>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-4 align-self-center">
-                        <div class="text-end upgrade-btn">
-                            <a href="https://www.wrappixel.com/templates/monsteradmin/"
-                                class="btn btn-success d-none d-md-inline-block text-white" target="_blank">Sample Button</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- ============================================================== -->
-            <!-- End Bread crumb and right sidebar toggle -->
-            <!-- ============================================================== -->
-            <!-- ============================================================== -->
-            <!-- Container fluid  -->
-            <!-- ============================================================== -->
-            <html
-            lang="en"
-            class="light-style layout-menu-fixed"
-            dir="ltr"
-            data-theme="theme-default"
-            data-assets-path="../assets/"
-            data-template="vertical-menu-template-free"
-          >
-          
-              <!-- Core CSS -->
-              <!-- css/style.min.css -->
-              <link rel="stylesheet" href="css/core.css" class="template-customizer-core-css" />
-              <link rel="stylesheet" href="css/theme-default.css" class="template-customizer-theme-css" />
-              <link rel="stylesheet" href="css/demo.css" />
-             
-                <hr class="my-0" />
-                <div class="card-body">
-                  <form id="formAccountSettings" method="POST" onsubmit="return false">
-                    <div class="row">
-                      <div class="mb-3 col-md-6">
-                        <label for="language-name" class="form-label">Language Name</label>
-                        <input
-                          class="form-control"
-                          type="text"
-                          id="language-name"
-                          name="language-name"
-                          autofocus
-                          placeholder="Java"
-                        />
-                      </div>
-                      <div class="mb-3 col-md-6">
-                        <label for="language-desc" class="form-label">Language Desc</label>
-                        <input class="form-control" type="text" name="language-desc" id="language-desc"  placeholder="Language Desc"/>
-                      </div>
-                      <div class="mb-3 col-md-6">
-                        <label for="email" class="form-label">Language Uses</label>
-                        <input
-                          class="form-control"
-                          type="text"
-                          id="language-uses"
-                          name="language-uses"
-                          value=""
-                          placeholder="Web#Automation#Android"
-                        />
-                      </div>
-                      <div class="mb-3 col-md-6">
-                        <label for="organization" class="form-label">Other Details</label>
-                        <input
-                          type="text"
-                          class="form-control"
-                          id="language-other"
-                          name="language-other"
-                          value=""
-                          placeholder="Other Details"
-                        />
-                      </div>
-                      <!-- <div class="mb-3 col-md-6">
-                        <label class="form-label" for="phoneNumber">Phone Number</label>
-                        <div class="input-group input-group-merge">
-                          <span class="input-group-text">US (+1)</span>
-                          <input
-                            type="text"
-                            id="phoneNumber"
-                            name="phoneNumber"
-                            class="form-control"
-                            placeholder="202 555 0111"
-                          />
-                        </div>
-                      </div> -->
-                      <!-- <div class="mb-3 col-md-6">
-                        <label for="address" class="form-label">Address</label>
-                        <input type="text" class="form-control" id="address" name="address" placeholder="Address" />
-                      </div> -->
-                      <div class="mb-3 col-md-6">
-                        <label for="state" class="form-label">Option one</label>
-                        <input class="form-control" type="text" id="language-optionone" name="language-optionone" placeholder="optional field" />
-                      </div>
-                      <div class="mb-3 col-md-6">
-                        <label for="zipCode" class="form-label">Option Two</label>
-                        <input
-                          type="text"
-                          class="form-control"
-                          id="language-optiontwo"
-                          name="language-optiontwo"
-                          placeholder="optional field"
-                          maxlength="6"
-                        />
-                      </div>
-           
-                    </div>
-<!-- core roadmap upload -->
-                    <hr class="my-0" />
-                    <div class="card-body">
-                        <div class="d-flex align-items-start align-items-sm-center gap-4">
-                          <img
-                            src="../assets/images/imgplace.png"
-                            alt="user-avatar"
-                            class="d-block rounded"
-                            height="70"
-                            width="70"
-                            id="uploadedAvatar"
-                          />
-                          <div class="button-wrapper">
-                            <label for="photo" class="btn btn-primary me-2 mb-4" tabindex="0">
-                              <span class="d-none d-sm-block">Upload Core RoadMap</span>
-                              <i class="bx bx-upload d-block d-sm-none"></i>
-                              <input
-                                type="file"
-                                id="photo"
-                                class="account-file-input"
-                                hidden
-                                accept="image/png, image/jpeg"
-                              />
-                            </label>
-                            <button type="button" class="btn btn-outline-secondary account-image-reset mb-4">
-                              <i class="bx bx-reset d-block d-sm-none"></i>
-                              <span class="d-none d-sm-block">Reset</span>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
                             </button>
-                            <p class="text-muted mb-0">Allowed JPG, GIF or PNG. Upload proper roadmap</p>
-
-                          </div>
-                        </div>
-                      </div>
-                      <hr class="my-0" />
-                      <!-- core roadmap tag end -->
-<!-- detailed roadmap first -->
-
-<div  style="background-color: #f3f1e1;" class="card">
-  <hr class="my-0">
-  <div class="card-body">
-    <p class="text-muted mb-0">Add Detailed  Roadmap Images Proper Indexwise</p>
-    <div class="mt-4"></div>
-      <div class="row">
-          <div class="col-md-6">
-              <div class="d-flex align-items-start align-items-sm-center gap-4">
-                  <img src="../assets/images/imgplace.png" alt="user-avatar" class="d-block rounded" height="70" width="70" id="uploadedAvatar1">
-                  <div class="button-wrapper">
-                      <label for="upload1" class="btn btn-primary me-2 mb-4" tabindex="0">
-                          <span class="d-none d-sm-block">Upload First Part</span>
-                          <i class="bx bx-upload d-block d-sm-none"></i>
-                          <input type="file" id="upload1" class="account-file-input1" hidden accept="image/png, image/jpeg">
-                      </label>
-                      <button type="button" class="btn btn-outline-secondary account-image-reset1 mb-4">
-                          <i class="bx bx-reset d-block d-sm-none"></i>
-                          <span class="d-none d-sm-block">Reset</span>
-                      </button>
-                      <!-- <p class="text-muted mb-0">First Roadmap</p> -->
-                  </div>
-              </div>
-          </div>
-          <div class="col-md-6">
-              <div class="d-flex align-items-start align-items-sm-center gap-4">
-                  <img src="../assets/images/imgplace.png" alt="user-avatar" class="d-block rounded" height="70" width="70" id="uploadedAvatar2">
-                  <div class="button-wrapper">
-                      <label for="upload2" class="btn btn-primary me-2 mb-4" tabindex="0">
-                          <span class="d-none d-sm-block">Upload Second Part</span>
-                          <i class="bx bx-upload d-block d-sm-none"></i>
-                          <input type="file" id="upload2" class="account-file-input2" hidden accept="image/png, image/jpeg">
-                      </label>
-                      <button type="button" class="btn btn-outline-secondary account-image-reset2 mb-4">
-                          <i class="bx bx-reset d-block d-sm-none"></i>
-                          <span class="d-none d-sm-block">Reset</span>
-                      </button>
-                      <!-- <p class="text-muted mb-0">Second RoadMap</p> -->
-                  </div>
-              </div>
-          </div>
-      </div>
-      <!-- Add spacing between the rows -->
-      <div class="mt-4"></div>
-      <div class="row">
-          <div class="col-md-6">
-              <div class="d-flex align-items-start align-items-sm-center gap-4">
-                  <img src="../assets/images/imgplace.png" alt="user-avatar" class="d-block rounded" height="70" width="70" id="uploadedAvatar3">
-                  <div class="button-wrapper">
-                      <label for="upload3" class="btn btn-primary me-2 mb-4" tabindex="0">
-                          <span class="d-none d-sm-block">Upload Third Part</span>
-                          <i class="bx bx-upload d-block d-sm-none"></i>
-                          <input type="file" id="upload3" class="account-file-input3" hidden accept="image/png, image/jpeg">
-                      </label>
-                      <button type="button" class="btn btn-outline-secondary account-image-reset3 mb-4">
-                          <i class="bx bx-reset d-block d-sm-none"></i>
-                          <span class="d-none d-sm-block">Reset</span>
-                      </button>
-                      <!-- <p class="text-muted mb-0">Third Roadmap</p> -->
-                  </div>
-              </div>
-          </div>
-          <div class="col-md-6">
-              <div class="d-flex align-items-start align-items-sm-center gap-4">
-                  <img src="../assets/images/imgplace.png" alt="user-avatar" class="d-block rounded" height="70" width="70" id="uploadedAvatar4">
-                  <div class="button-wrapper">
-                      <label for="upload4" class="btn btn-primary me-2 mb-4" tabindex="0">
-                          <span class="d-none d-sm-block">Upload Forth Part </span>
-                          <i class="bx bx-upload d-block d-sm-none"></i>
-                          <input type="file" id="upload4" class="account-file-input4" hidden accept="image/png, image/jpeg">
-                      </label>
-                      <button type="button" class="btn btn-outline-secondary account-image-reset4 mb-4">
-                          <i class="bx bx-reset d-block d-sm-none"></i>
-                          <span class="d-none d-sm-block">Reset</span>
-                      </button>
-                      <!-- <p class="text-muted mb-0">Forth RoadMap</p> -->
-                  </div>
-              </div>
-          </div>
-      </div>
-  </div>
-  <hr class="my-0">
-</div>
-
-
-                        <!-- end of detailed roadmap -->
-
-                    <div class="mt-2">
-                      <button  id="upload" class="btn btn-primary me-2"  onclick="saveLanguageMod()">Save changes</button>
-                      <!-- <button id="upload" class="upload-btn" onclick="saveLanguage()">Save Language</button> -->
-
-                      <button type="reset" class="btn btn-outline-secondary">Cancel</button>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav ml-auto">
+                                    <li class="nav-item pr-3">
+                                        <a href="https://www.wrappixel.com/templates/monster-admin-lite/#comparison" class="btn btn-custom btn-outline-info btn-lg" target="_blank">Free Download</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="https://www.wrappixel.com/templates/monsteradmin/?ref=33" class="btn btn-custom btn-info btn-lg" target="_blank">Check Pro Version</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
                     </div>
-                  </form>
+                    <!-- End Header -->
                 </div>
-                <!-- /Account -->
-              </div>
-          
-    <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-storage.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-database.js"></script>
-    <script src="js/firebaseFunctions.js"></script>
- 
-    <script>
-      // Firebase configuration (replace with your own config)
-      var firebaseConfig = {
-             apiKey: "AIzaSyB_n3idAFxZCFnkqjQWjaA0f8efd7Z0LPE",
-             authDomain: "pluteitdemo.firebaseapp.com",
-             databaseURL: "https://pluteitdemo-default-rtdb.firebaseio.com/",
-             projectId: "pluteitdemo",
-             storageBucket: "pluteitdemo.appspot.com",
-             messagingSenderId: "1960856025",
-             appId: "1:1960856025:web:f432fbf5e4c2d04df3b1c8"
-         };
- 
- 
-       // Initialize Firebase
-       firebase.initializeApp(firebaseConfig);
- 
- 
- 
- 
-      
-    </script>
-          </html>
+            </header>
             <!-- ============================================================== -->
-            <!-- End Container fluid  -->
+            <!-- Header part -->
             <!-- ============================================================== -->
+            
             <!-- ============================================================== -->
-            <!-- footer -->
+            <!-- Page wrapper part -->
             <!-- ============================================================== -->
-            <footer class="footer text-center">
-                © 2023 Pluet Admin by <a href="https://www.plutecoder.in/">plutecoder.in</a>
-            </footer>
+            <div class="content-wrapper">
+                <!-- ============================================================== -->
+                <!-- Demos part -->
+                <!-- ============================================================== -->
+                <section class="spacer bg-light">
+                    <div class="container">
+                        <div class="row justify-content-md-center pt-5">
+                            <div class="col-md-9 text-center">
+                                <h2 class="text-dark">Create Stunning User Interface for your <span class="font-weight-bold">Applications</span> & <span class="font-weight-bold">Products</span> with <span class="border-bottom border-dark"> Monster Admin</span></h2>
+                            </div>
+                        </div>
+                        <div class="row py-5">
+                            <!-- ============================================================== -->
+                            <!-- Lite Demo -->
+                            <!-- ============================================================== -->
+                            <div class="col-md-6">
+                                <div class="card p-2 mr-1">
+                                    <div class="card-body p-4">
+                                        <div class="text-center">
+                                            <h2 class="text-dark font-weight-medium">Lite Version</h2>
+                                            <h4 class="text-success">Free Forever</h4>
+                                        </div>
+                                        <div class="live-box text-center mt-4">
+                                            <img class="img-fluid" src="https://www.wrappixel.com/demos/free-admin-templates/all-lite-landing-pages/assets/images/screenshots/monster-lite-lp-img.jpg" alt="Lite version">
+                                            <div class="overlay">
+                                                <a class="btn btn-danger live-btn" href="https://www.wrappixel.com/demos/free-admin-templates/monster-admin-lite/monster-html/index.html" target="_blank">Live Preview</a>
+                                            </div>
+                                        </div>
+                                        <p class="text-muted mt-5 line-h33 font-16">Monster Admin Lite is basic yet very useful bootstrap 5 dashbaord template for your projects.If you are looking for modern yet clean admin template for your backend project. Monster Admin is the right choice for you. If your application requires more options. We like to suggest you the pro version.</p>
+                                        <div class="row text-muted  mt-4">
+                                            <div class="col-md-6">
+                                                <ul class="list-unstyled listing">
+                                                    <li><img src="https://www.wrappixel.com/demos/free-admin-templates/all-lite-landing-pages/assets/images/font-icons/light-circle.jpg" class="img-fluid mr-2">1 Basic Dashboard</li>
+                                                    <li><img src="https://www.wrappixel.com/demos/free-admin-templates/all-lite-landing-pages/assets/images/font-icons/light-circle.jpg" class="img-fluid mr-2">7+ Pages Template</li>
+                                                    <li><img src="https://www.wrappixel.com/demos/free-admin-templates/all-lite-landing-pages/assets/images/font-icons/light-circle.jpg" class="img-fluid mr-2">10+ UI Components</li>
+                                                    <li><img src="https://www.wrappixel.com/demos/free-admin-templates/all-lite-landing-pages/assets/images/font-icons/light-circle.jpg" class="img-fluid mr-2">Bootstrap 5 Version</li>
+                                                    <li><img src="https://www.wrappixel.com/demos/free-admin-templates/all-lite-landing-pages/assets/images/font-icons/light-circle.jpg" class="img-fluid mr-2">Font Awesome Icons</li>
+                                                    <li><img src="https://www.wrappixel.com/demos/free-admin-templates/all-lite-landing-pages/assets/images/font-icons/light-circle.jpg" class="img-fluid mr-2">Fully Responsive Pages</li>
+                                                    <li class="text-dark"><img src="https://www.wrappixel.com/demos/free-admin-templates/all-lite-landing-pages/assets/images/font-icons/dark-circle.jpg" class="img-fluid mr-2">No Support Provided</li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <ul class="list-unstyled listing">
+                                                    <li><img src="https://www.wrappixel.com/demos/free-admin-templates/all-lite-landing-pages/assets/images/font-icons/light-circle.jpg" class="img-fluid mr-2">SaSS Base CSS</li>
+                                                    <li><img src="https://www.wrappixel.com/demos/free-admin-templates/all-lite-landing-pages/assets/images/font-icons/light-circle.jpg" class="img-fluid mr-2">Easy To Customize</li>
+                                                    <li><img src="https://www.wrappixel.com/demos/free-admin-templates/all-lite-landing-pages/assets/images/font-icons/light-circle.jpg" class="img-fluid mr-2">Basic Table Examples</li>
+                                                    <li><img src="https://www.wrappixel.com/demos/free-admin-templates/all-lite-landing-pages/assets/images/font-icons/light-circle.jpg" class="img-fluid mr-2">Profile Page Included</li>
+                                                    <li><img src="https://www.wrappixel.com/demos/free-admin-templates/all-lite-landing-pages/assets/images/font-icons/light-circle.jpg" class="img-fluid mr-2">Google Map</li>
+                                                    <li class="text-dark "><img src="https://www.wrappixel.com/demos/free-admin-templates/all-lite-landing-pages/assets/images/font-icons/dark-circle.jpg" class="img-fluid mr-2">No Documentation</li>
+                                                    <li class="text-dark"><img src="https://www.wrappixel.com/demos/free-admin-templates/all-lite-landing-pages/assets/images/font-icons/dark-circle.jpg" class="img-fluid mr-2">Backlink Required</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="text-center mt-4 mb-3">
+                                            <a href="https://www.wrappixel.com/templates/monster-admin-lite/#comparison" class="btn btn-custom btn-outline-info btn-lg" target="_blank">Free Download</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ============================================================== -->
+                            <!-- Pro Demo -->
+                            <!-- ============================================================== -->
+                            <div class="col-md-6">
+                                <div class="card pro-demo p-2 ml-1">
+                                    <div class="card-body p-4">
+                                        <div class="text-center">
+                                            <h2 class="text-info font-weight-medium">Pro Version</h2>
+                                            <h4 class="text-dark">$39 Only</h4>
+                                        </div>
+                                        <div class="live-box text-center mt-4">
+                                            <img class="img-fluid" src="https://www.wrappixel.com/demos/free-admin-templates/all-lite-landing-pages/assets/images/screenshots/monster-pro-lp-img.jpg" alt="Pro version">
+                                            <div class="overlay">
+                                                <a class="btn btn-danger live-btn" href="https://www.wrappixel.com/demos/admin-templates/monster-admin/landingpage/index.html" target="_blank">Live Preview</a>
+                                            </div>
+                                        </div>
+                                        <div class="row text-dark mt-5">
+                                            <div class="col-md-6">
+                                                <ul class="list-unstyled listing">
+                                                    <li><img src="https://www.wrappixel.com/demos/free-admin-templates/all-lite-landing-pages/assets/images/font-icons/blue-circle.jpg" class="img-fluid mr-2">5 Stunning Dashboards</li>
+                                                    <li><img src="https://www.wrappixel.com/demos/free-admin-templates/all-lite-landing-pages/assets/images/font-icons/blue-circle.jpg" class="img-fluid mr-2">600+ Page Templates</li>
+                                                    <li><img src="https://www.wrappixel.com/demos/free-admin-templates/all-lite-landing-pages/assets/images/font-icons/blue-circle.jpg" class="img-fluid mr-2">500+ UI Components</li>
+                                                    <li><img src="https://www.wrappixel.com/demos/free-admin-templates/all-lite-landing-pages/assets/images/font-icons/blue-circle.jpg" class="img-fluid mr-2">100+ Integrated Plugins</li>
+                                                    <li><img src="https://www.wrappixel.com/demos/free-admin-templates/all-lite-landing-pages/assets/images/font-icons/blue-circle.jpg" class="img-fluid mr-2">Front-end Landing Page</li>
+                                                    <li><img src="https://www.wrappixel.com/demos/free-admin-templates/all-lite-landing-pages/assets/images/font-icons/blue-circle.jpg" class="img-fluid mr-2">6 Months Premium Support</li>
+                                                    <li><img src="https://www.wrappixel.com/demos/free-admin-templates/all-lite-landing-pages/assets/images/font-icons/blue-circle.jpg" class="img-fluid mr-2">Right-to-Left(RTL) Verion</li>
+                                                    <li><img src="https://www.wrappixel.com/demos/free-admin-templates/all-lite-landing-pages/assets/images/font-icons/blue-circle.jpg" class="img-fluid mr-2">Unlimited Colors</li>
+                                                    <li><img src="https://www.wrappixel.com/demos/free-admin-templates/all-lite-landing-pages/assets/images/font-icons/blue-circle.jpg" class="img-fluid mr-2">3000+ Font Icons</li>
+                                                    <li><img src="https://www.wrappixel.com/demos/free-admin-templates/all-lite-landing-pages/assets/images/font-icons/blue-circle.jpg" class="img-fluid mr-2">Lots of Chart Options</li>
+                                                    <li><img src="https://www.wrappixel.com/demos/free-admin-templates/all-lite-landing-pages/assets/images/font-icons/blue-circle.jpg" class="img-fluid mr-2">Bootstrap 5 Version</li>
+                                                    <li><img src="https://www.wrappixel.com/demos/free-admin-templates/all-lite-landing-pages/assets/images/font-icons/blue-circle.jpg" class="img-fluid mr-2">Fully Responsive Pages</li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <ul class="list-unstyled listing">
+                                                    <li><img src="https://www.wrappixel.com/demos/free-admin-templates/all-lite-landing-pages/assets/images/font-icons/blue-circle.jpg" class="img-fluid mr-2">6+ Unique Demos</li>
+                                                    <li><img src="https://www.wrappixel.com/demos/free-admin-templates/all-lite-landing-pages/assets/images/font-icons/blue-circle.jpg" class="img-fluid mr-2">3+ Ready to Use App</li>
+                                                    <li><img src="https://www.wrappixel.com/demos/free-admin-templates/all-lite-landing-pages/assets/images/font-icons/blue-circle.jpg" class="img-fluid mr-2">Light and Dark Sidebar</li>
+                                                    <li><img src="https://www.wrappixel.com/demos/free-admin-templates/all-lite-landing-pages/assets/images/font-icons/blue-circle.jpg" class="img-fluid mr-2">Dashboard PSD Files</li>
+                                                    <li><img src="https://www.wrappixel.com/demos/free-admin-templates/all-lite-landing-pages/assets/images/font-icons/blue-circle.jpg" class="img-fluid mr-2">Documentation Provided</li>
+                                                    <li><img src="https://www.wrappixel.com/demos/free-admin-templates/all-lite-landing-pages/assets/images/font-icons/blue-circle.jpg" class="img-fluid mr-2">Lots of Widgets</li>
+                                                    <li><img src="https://www.wrappixel.com/demos/free-admin-templates/all-lite-landing-pages/assets/images/font-icons/blue-circle.jpg" class="img-fluid mr-2">Tons of Table Example</li>
+                                                    <li><img src="https://www.wrappixel.com/demos/free-admin-templates/all-lite-landing-pages/assets/images/font-icons/blue-circle.jpg" class="img-fluid mr-2">Variety of Forms Included</li>
+                                                    <li><img src="https://www.wrappixel.com/demos/free-admin-templates/all-lite-landing-pages/assets/images/font-icons/blue-circle.jpg" class="img-fluid mr-2">SaSS Base CSS</li>
+                                                    <li><img src="https://www.wrappixel.com/demos/free-admin-templates/all-lite-landing-pages/assets/images/font-icons/blue-circle.jpg" class="img-fluid mr-2">Easy to Customize</li>
+                                                    <li><img src="https://www.wrappixel.com/demos/free-admin-templates/all-lite-landing-pages/assets/images/font-icons/blue-circle.jpg" class="img-fluid mr-2">& lots more..</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="text-center mt-4 mb-3">
+                                            <a href="https://www.wrappixel.com/templates/monsteradmin/?ref=33" class="btn btn-custom btn-info btn-lg" target="_blank">Buy Pro Version</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
             <!-- ============================================================== -->
-            <!-- End footer -->
+            <!-- End page wrapperHeader part -->
             <!-- ============================================================== -->
+            <footer class="text-center p-4"> All Rights Reserved by Monster Admin. Designed and Developed by <a href="https://www.wrappixel.com">WrapPixel</a>.</footer>
         </div>
-        <!-- ============================================================== -->
-        <!-- End Page wrapper  -->
-        <!-- ============================================================== -->
-    </div>
-    <!-- ============================================================== -->
-    <!-- End Wrapper -->
-    <!-- ============================================================== -->
+    </body>
     <!-- ============================================================== -->
     <!-- All Jquery -->
     <!-- ============================================================== -->
-    <script src="../assets/plugins/jquery/dist/jquery.min.js"></script>
+    <script src="https://www.wrappixel.com/demos/free-admin-templates/all-lite-landing-pages/assets/plugins/jquery/dist/jquery.min.js"></script>
     <!-- Bootstrap tether Core JavaScript -->
-    <script src="../assets/plugins/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="js/app-style-switcher.js"></script>
-    <!--Wave Effects -->
-    <script src="js/waves.js"></script>
-    <!--Menu sidebar -->
-    <script src="js/sidebarmenu.js"></script>
-    <!--Custom JavaScript -->
-    <script src="js/custom.js"></script>
-    <!--This page JavaScript -->
-    <!--flot chart-->
-    <script src="../assets/plugins/flot/jquery.flot.js"></script>
-    <script src="../assets/plugins/flot.tooltip/js/jquery.flot.tooltip.min.js"></script>
-    <script src="js/pages/dashboards/dashboard1.js"></script>
-
-    <script src="../monster-html/js/language_p.js"></script>
-
-
-
-</body>
-
+    <script src="https://www.wrappixel.com/demos/free-admin-templates/all-lite-landing-pages/assets/plugins/popper.js/dist/umd/popper.min.js"></script>
+    <script src="https://www.wrappixel.com/demos/free-admin-templates/all-lite-landing-pages/assets/plugins/bootstrap/dist/js/bootstrap.min.js"></script>
 </html>

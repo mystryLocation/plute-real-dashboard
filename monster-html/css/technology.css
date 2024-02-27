@@ -7,10 +7,7 @@
 
 
 .technology-item {
-    margin-left:130px;
-    display: inline-block; /* Display technology items inline */
-    width: 300px; /* Set the width of each technology item */
-    margin: 10px; /* Add margin around each technology item */
+    /* margin-left:20rem; */
     padding: 10px; /* Add padding inside each technology item */
     border: 1px solid #ccc; /* Add border for visual separation */
     text-align: center; /* Center text content */
@@ -43,4 +40,11 @@
     background-color: green;
     color: white;
     cursor: pointer;
+}
+
+
+@media screen and (max-width:1170px) {
+    .technology-item {
+        margin-left: 5rem; /* Adjusted margin-left for screens larger than 768px */
+    }
 }

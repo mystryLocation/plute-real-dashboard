@@ -135,7 +135,10 @@ function updateTechnology() {
     }).then(function () {
         alert("Technology updated successfully!");
         // Redirect back to the technology page
-        window.location.href = "../tech/tech.html";
+        
+        window.location.href = "../technology.html";
+   
+        
     }).catch(function (error) {
         console.error("Error updating technology:", error);
         alert("An error occurred while updating the technology. Please try again.");
